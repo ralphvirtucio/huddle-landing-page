@@ -1,0 +1,11 @@
+.hero {
+  &__heading {
+    font-family: $font-family-headings;
+    font-size: 2.5rem;
+  }
+
+  &__content {
+    font-family: $font-family-body-cta;
+    font-size: 1.13rem;
+  }
+}
