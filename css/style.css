@@ -6,9 +6,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-* {
   margin: 0;
   padding: 0;
 }
@@ -34,13 +31,13 @@ html {
 }
 
 .intro__section {
-  background-image: url(../images/bg-hero-desktop.svg);
+  background: url(../images/bg-hero-desktop.svg), hsl(193deg, 100%, 96%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__btn {
-  width: 26.8%;
+  width: 52%;
   background-color: hsl(322deg, 100%, 66%);
   color: #fff;
   padding: 1rem 1rem;
@@ -50,36 +47,49 @@ html {
 }
 
 .intro__section {
-  padding: 5rem;
+  padding: 4rem 6rem;
 }
 
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-bottom: 5rem;
+}
+.header__logo {
+  margin-right: auto;
 }
 
 .hero {
   display: flex;
-  align-items: center;
 }
 .hero__left-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 40%;
+  padding-right: 10rem;
 }
 .hero__illustration {
-  width: 40%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+.hero__illustration img {
+  display: block;
+  width: 100%;
 }
 
 .hero__heading {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
 }
 .hero__content {
   font-family: "Open Sans", sans-serif;
   font-size: 1.13rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

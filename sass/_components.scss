@@ -19,13 +19,13 @@
 }
 
 .intro__section {
-  background-image: url(../images/bg-hero-desktop.svg);
+  background: url(../images/bg-hero-desktop.svg), $color-neutral-very-pale-cyan;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__btn {
-  width: 26.8%;
+  width: 52%;
   background-color: $color-primary-pink;
   color: #fff;
   padding: 1rem 1rem;
