@@ -6,10 +6,25 @@
     margin-bottom: 2.5rem;
   }
 
-  &__content {
+  &__description {
     font-family: $font-family-body-cta;
     font-size: 1.13rem;
     line-height: 1.5;
     margin-bottom: 2rem;
+  }
+}
+
+.together {
+  &__heading {
+    font-family: $font-family-headings;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-family: $font-family-body-cta;
+    font-size: $font-size-body;
+    line-height: 1.5;
+    color: $color-neutral-grayish-blue;
   }
 }
