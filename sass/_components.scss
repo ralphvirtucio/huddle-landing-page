@@ -33,3 +33,34 @@
   font-weight: $font-weight-700;
   font-family: $font-family-body-cta;
 }
+
+.huddle-features {
+  padding: 10rem 7rem;
+
+  &__heading {
+    font-family: $font-family-headings;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #00252e;
+  }
+
+  &__description {
+    font-family: $font-family-body-cta;
+    font-size: $font-size-body;
+    line-height: 1.5;
+    color: $color-neutral-grayish-blue;
+  }
+
+  &__content {
+    width: 65%;
+  }
+
+  &__illustration {
+    width: 50%;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+}

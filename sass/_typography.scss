@@ -14,17 +14,6 @@
   }
 }
 
-.together {
-  &__heading {
-    font-family: $font-family-headings;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
-
-  &__description {
-    font-family: $font-family-body-cta;
-    font-size: $font-size-body;
-    line-height: 1.5;
-    color: $color-neutral-grayish-blue;
-  }
+.your-users-desc {
+  max-width: 47ch;
 }
