@@ -1,19 +1,32 @@
-.hero {
-  &__heading {
-    font-family: $font-family-headings;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    margin-bottom: 2.5rem;
-  }
-
-  &__description {
-    font-family: $font-family-body-cta;
-    font-size: 1.13rem;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-  }
+.btn {
+  font-family: $font-family-body-cta;
 }
 
-.your-users-desc {
-  max-width: 47ch;
+.btn-hero-header {
+  font-family: $font-family-body-cta;
+  font-size: 0.7rem;
+  font-weight: $font-weight-700;
+  color: #00252e;
+}
+
+.btn-hero-content {
+  font-family: $font-family-body-cta;
+  font-size: 0.9rem;
+  font-weight: $font-weight-700;
+  color: #ffff;
+}
+
+.hero {
+  &__content {
+    &-heading {
+      font-size: 1.2rem;
+      font-family: $font-family-headings;
+    }
+
+    &-text {
+      font-size: 1rem;
+      font-family: $font-family-body-cta;
+      line-height: 1.5;
+    }
+  }
 }
