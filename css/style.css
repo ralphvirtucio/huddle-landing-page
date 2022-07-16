@@ -34,7 +34,7 @@ html {
 }
 
 .hero {
-  background-image: url("../images/bg-hero-mobile.svg");
+  background: url("../images/bg-hero-mobile.svg"), #edfbff;
   background-repeat: no-repeat;
 }
 .hero__header {
