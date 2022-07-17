@@ -9,7 +9,7 @@
   color: #00252e;
 }
 
-.btn-hero-content {
+.btn-cta {
   font-family: $font-family-body-cta;
   font-size: 0.9rem;
   font-weight: $font-weight-700;
@@ -31,15 +31,23 @@
   }
 }
 
-.features-grow {
-  &__heading {
+.huddle__features {
+  &-heading {
     font-family: $font-family-headings;
     margin-block-end: 1rem;
   }
 
-  &__text {
+  &-text {
     font-family: $font-family-body-cta;
-    font-size: 0.8rem;
-    color: #80839a;
+    font-size: 0.95rem;
+    color: #808e9a;
+    line-height: 1.5;
+  }
+}
+
+.huddle__cta {
+  &-heading {
+    font-family: $font-family-headings;
+    font-size: 1.1rem;
   }
 }
