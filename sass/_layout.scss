@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('../images/bg-hero-mobile.svg');
+  background: url('../images/bg-hero-mobile.svg'), #edfbff;
   background-repeat: no-repeat;
 
   &__header {
@@ -37,5 +37,36 @@
     padding-block-start: 5rem;
     padding-block-end: 2rem;
     padding-inline: 2rem;
+  }
+}
+
+.features {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  &-container {
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.07);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  &-grow {
+    &__illustration {
+      width: 100%;
+      padding-inline: 1rem;
+      padding-block: 2rem;
+    }
+
+    // For Desktop Layout
+    // &__content {
+    //   grid-column: 1;
+    //   grid-row: 1;
+    // }
   }
 }
