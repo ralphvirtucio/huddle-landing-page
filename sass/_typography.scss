@@ -30,3 +30,16 @@
     }
   }
 }
+
+.features-grow {
+  &__heading {
+    font-family: $font-family-headings;
+    margin-block-end: 1rem;
+  }
+
+  &__text {
+    font-family: $font-family-body-cta;
+    font-size: 0.8rem;
+    color: #80839a;
+  }
+}
