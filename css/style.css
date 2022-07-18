@@ -113,6 +113,26 @@ html {
   box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.07);
 }
 
+.huddle__footer {
+  background-color: hsl(192deg, 100%, 9%);
+  padding-block-start: 8rem;
+  padding-block-end: 2rem;
+  padding-inline: 1rem;
+  color: white;
+}
+.huddle__footer-logo {
+  fill: white;
+}
+.huddle__footer-info {
+  margin-block-start: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.huddle__footer-info img {
+  width: 1rem;
+  height: 1rem;
+}
+
 .btn {
   font-family: "Open Sans", sans-serif;
 }
@@ -155,6 +175,12 @@ html {
 .huddle__cta-heading {
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
+}
+
+.huddle__footer-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */

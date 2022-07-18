@@ -85,3 +85,27 @@
     box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.07);
   }
 }
+
+.huddle__footer {
+  background-color: $color-neutral-very-dark-cyan;
+  padding-block-start: 8rem;
+  padding-block-end: 2rem;
+  padding-inline: 1rem;
+  color: #ffff;
+
+  &-logo {
+    fill: #ffff;
+  }
+
+  &-info {
+    margin-block-start: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    // align-items: flex-start;
+
+    img {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}
