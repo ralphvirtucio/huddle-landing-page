@@ -71,9 +71,24 @@ html {
   padding-block-end: 5rem;
   align-items: center;
 }
+@media only screen and (min-width: 768px) {
+  .hero__header {
+    padding-inline: 3rem;
+    padding-block-start: 3rem;
+  }
+}
 .hero__header-logo {
   width: 30%;
   margin-right: auto;
+}
+@media only screen and (min-width: 768px) {
+  .hero__header-logo {
+    width: 20%;
+  }
+}
+.hero__content-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 .hero__content {
   display: flex;
@@ -82,13 +97,30 @@ html {
   align-items: center;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .hero__content {
+    align-items: normal;
+    padding-inline: 3rem;
+    text-align: start;
+  }
+}
 .hero__content-heading {
   padding-block-end: 2rem;
   width: 60%;
 }
+@media only screen and (min-width: 768px) {
+  .hero__content-heading {
+    width: auto;
+  }
+}
 .hero__content-text {
   padding-block-end: 2rem;
   width: 80%;
+}
+@media only screen and (min-width: 768px) {
+  .hero__content-text {
+    width: auto;
+  }
 }
 .hero__illustration {
   width: 100%;
@@ -141,7 +173,6 @@ html {
 }
 
 .huddle__footer {
-  position: absolute;
   background-color: hsl(192deg, 100%, 9%);
   padding-block-start: 8rem;
   padding-block-end: 2rem;
@@ -190,13 +221,18 @@ html {
 }
 
 .hero__content-heading {
-  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 2.5vw, 2.5rem);
   font-family: "Poppins", sans-serif;
 }
 .hero__content-text {
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+  .hero__content-text {
+    font-size: 1.2rem;
+  }
 }
 
 .huddle__features-heading {

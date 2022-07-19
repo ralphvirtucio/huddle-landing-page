@@ -9,10 +9,23 @@
     padding-block-end: 5rem;
     align-items: center;
 
+    @media only screen and (min-width: $bp-tablet) {
+      padding-inline: 3rem;
+      padding-block-start: 3rem;
+    }
+
     &-logo {
       width: 30%;
       margin-right: auto;
+      @media only screen and (min-width: $bp-tablet) {
+        width: 20%;
+      }
     }
+  }
+
+  &__content-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
 
   &__content {
@@ -22,13 +35,25 @@
     align-items: center;
     text-align: center;
 
+    @media only screen and (min-width: $bp-tablet) {
+      align-items: normal;
+      padding-inline: 3rem;
+      text-align: start;
+    }
+
     &-heading {
       padding-block-end: 2rem;
       width: 60%;
+      @media only screen and (min-width: $bp-tablet) {
+        width: auto;
+      }
     }
     &-text {
       padding-block-end: 2rem;
       width: 80%;
+      @media only screen and (min-width: $bp-tablet) {
+        width: auto;
+      }
     }
   }
 
@@ -92,7 +117,6 @@
 }
 
 .huddle__footer {
-  position: absolute;
   background-color: $color-neutral-very-dark-cyan;
   padding-block-start: 8rem;
   padding-block-end: 2rem;
