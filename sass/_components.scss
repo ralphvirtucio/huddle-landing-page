@@ -26,3 +26,25 @@
   width: 70%;
   padding-inline: 2rem;
 }
+
+.huddle__footer-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 1.2rem;
+  gap: 1rem;
+
+  &-links {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.social-media__icon {
+  fill: #fff;
+  width: 0.8rem;
+  height: 0.8rem;
+}
